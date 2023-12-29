@@ -1,0 +1,40 @@
+{
+  "name": "com.kyrylokuzyk.primetween",
+  "displayName": "PrimeTween",
+  "version": "1.1.1",
+  "unity": "2018.4",
+  "author": {
+    "name": "Kyrylo Kuzyk"
+  },
+  "samples": [
+    {
+      "displayName": "Examples",
+      "path": "Samples~/Examples"
+    }
+  ],
+  "hideInEditor": false,
+  "description": "PrimeTween is a high-performance, allocation-free animation library for Unity. Animate anything with just one line of code, tweak all animation properties directly from the Inspector, and create complex animation sequences. No runtime memory allocations, ever.",
+  "keywords": [
+    "Tween",
+    "Easing",
+    "Delay",
+    "Sequence",
+    "Shake",
+    "Screen Shake",
+    "Camera Shake",
+    "Game Feel",
+    "Feel",
+    "Interpolation",
+    "Performance",
+    "Zero-allocation",
+    "Ease",
+    "Tweening",
+    "Animate"
+  ],
+  "documentationUrl": "https://github.com/KyryloKuzyk/PrimeTween",
+  "repository": {
+    "url": "git@bitbucket.org:stampedegames/primetween.git",
+    "type": "git",
+    "revision": "c50eb2521be8d086bba109f64348ea59e1c925d9"
+  }
+}
