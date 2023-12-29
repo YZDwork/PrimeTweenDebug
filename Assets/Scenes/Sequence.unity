@@ -1290,9 +1290,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Description:\r\n\tGroup + Delay can't replace ChainCallback! \r\n\tIt
-    sames like PrimeTween\u2019 sequence have no time point control. We use ChainCallback
-    and Group(Tween.Delay()) set callbacks at same time point, but it runs different."
+  m_Text: "Description:\r\n\tGroup + Delay cannot replace ChainCallback\r\n\tIt seems
+    that PrimeTween's sequence does not have time point control. Although we use
+    ChainCallback and Group(Tween.Delay()) to set callbacks at the same time point,
+    they have different behaviors."
 --- !u!222 &1716222409
 CanvasRenderer:
   m_ObjectHideFlags: 0

@@ -1156,15 +1156,15 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Description:\r\n\tWe need \u201CInsert\u201D! \r\n\tIn your explanation,
-    \u201CGroup\u201D same as \u201CJoin\u201D, and we can use \u201CGroup(Tween)\u201D
-    instead of \u201CInsert\u201D. That\u2019s the question! In DoTween, \u201CInsert
-    \u201D well not make an impact on the main Sequence, but \u201CJoin\u201D is
-    same as \u201CAppend \u201D well effect main Sequence. As the example show, not
-    all times can \u201CGroup \u201D replace \u201CInsert\u201D.\r\n\tSometimes we
-    need CallBacks running during a Chain playing (Chain's duratin is 1f, CallBack
-    need playing at 0.5f). That means we can't using ChainCallBack at this situation,
-    and unfortunately Group+Delay can't work too."
+  m_Text: "Description:\r\n\tIt seems that we need \"Insert\"\r\n\tIn your explanation,
+    you mentioned that \"Group\" is the same as \"Join\" and we can use \"Group(Tween)\"
+    instead of \"Insert\". However, this has raised a question. In DoTween, \"Insert\"
+    does not impact the main Sequence, whereas \"Join\" is similar to \"Append\"
+    and does affect the main Sequence. As the example shows, it's not always possible
+    to replace \"Insert\" with \"Group\".\r\n\tSometimes, we need callbacks to run
+    during a Chain (when the Chain's duration is 1f, the callback needs to run at
+    0.5f). This means that ChainCallback cannot be used in this situation. Unfortunately,
+    Group + Delay cannot work either."
 --- !u!222 &1775580149
 CanvasRenderer:
   m_ObjectHideFlags: 0
